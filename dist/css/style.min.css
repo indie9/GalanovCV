@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  color: white;
+}
+body a {
+  color: aqua;
+}
+body span {
+  color: red;
+}
