@@ -1,10 +1,15 @@
 body{
     background-color: black;
     color: white;
-    a{
+    & a{
         color: aqua;
     }
-    span{
+    & span{
         color: red;
     }
+}
+#imgblock{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
 }

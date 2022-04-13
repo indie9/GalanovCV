@@ -1,7 +1,10 @@
-import * as flsFunction from "./modules/function.js"
-import Swiper, { Navigation, Pagination } from 'swiper';
-console.log('hello wortld');
-flsFunction.write();
-flsFunction.writer();
+import * as flsFunction from "./modules/function.js";
 
-const swiper = new Swiper();
+const button = document.getElementById("myBtn");
+button.addEventListener("click", () => flsFunction.getData());
+
+flsFunction.write();
+
+
+
+
