@@ -1,10 +1,21 @@
-@import"./parts/zero.scss";
+@import "./parts/zero.scss";
+@import "./parts/header.scss";
+@import "./parts/about.scss";
+@import "./parts/skills.scss";
+@import "./parts/portfolio.scss";
 
-.wrapper{
+.wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
-  border: 1px solid green
+  box-sizing: border-box;
 }
 
-@import"./parts/width768.scss";
+@media (max-width: 1279px) {
+  .wrapper {
+    max-width: 708px;
+  }
+}
+
+@media (max-width: 767px) {
+}

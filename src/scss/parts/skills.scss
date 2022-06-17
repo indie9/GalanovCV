@@ -1,0 +1,43 @@
+.skills {
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    & .info-item {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin: 10px 0;
+      & .skill-item {
+        box-sizing: border-box;
+        font-weight: 900;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      & .progres-item {
+        box-sizing: border-box;
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        display: flex;
+
+        align-items: center;
+        & .progressbar {
+          height: 50px;
+          max-width: 300px;
+          width: 100%;
+          border: 10px solid gray;
+          border-radius: 25px;
+          overflow: hidden;
+          margin-right: 40px;
+          & .loadbar {
+            background-color: green;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

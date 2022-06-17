@@ -1,0 +1,37 @@
+.start-screen {
+  background: radial-gradient(100% 215.42% at 0% 0%, #ffffff 0%, #f3e8e8 100%),
+    #211f20;
+  background-size: cover;
+  padding-top: 220px;
+  margin-top: -150px;
+  & .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1279px) {
+  .start-screen {
+    & .wrapper {
+      & img {
+        width: 200px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .start-screen {
+    & .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      & img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
