@@ -1,8 +1,6 @@
 import * as flsFunction from "./modules/function.js";
 
-const button = document.getElementById("myBtn");
-button.addEventListener("click", () => flsFunction.getData());
-
+console.log('myscript.js injected');
 flsFunction.write();
 
 
